@@ -38,6 +38,15 @@ configuration, you will need to manually re-enter the information and/or run thr
   
   9: Shellcode - The malicious shellcode for the reverse shell
 
+# Download and Run
+
+To download the script simply enter `git clone https://github.com/versex799/BunnyOverflow.git`
+
+Change directoy `cd BunnyOverflow`
+
+Run the script `python3 BunnyOverflow.py1`
+
+
 # Main Menu
 
 ![Main Menu](https://github.com/versex799/BunnyOverflow/blob/master/Screenshots/MainMenu.png)
