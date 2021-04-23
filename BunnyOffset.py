@@ -94,13 +94,14 @@ class BunnyOffset:
 
         print(colored("You should see 42424242 in the EIP.", "green"))
 
-        confirm = input(colored("Do you see 42424242 in the EIP field? ", "yellow"))
+        confirm = input(colored("Do you see 42424242 in the EIP field (Y/n)? ", "yellow"))
 
         if confirm == 'Y' or confirm == 'y' or confirm == '':
             print(colored("EIP Offset verification complete!", "green"))
         else:
-            input(colored("Our offset does not appear to be correct. Please go back and run the fuzzing operation "
-                          "again...", "red"))
+            input(colored("Our offset does not appear to be correct. Please run this operation again and\n"
+                          "ensure the value of EIP is correct. If the value is correct, you may need to\n"
+                          "go back and run the fuzzing operation again...", "red"))
             return False
 
         input(colored("\n\nreset the debugger and hit enter to continue", 'yellow'))

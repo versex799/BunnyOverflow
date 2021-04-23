@@ -30,7 +30,7 @@ class BunnyMenu:
 
     @staticmethod
     def PerformSelectedOperation(userSelection):
-        if userSelection != '7':
+        if userSelection != '7' and userSelection != 'c' and userSelection != 'C':
             BunnyMenu.GetInitialBofInformation()
 
         if userSelection == '1':

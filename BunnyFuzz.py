@@ -56,7 +56,7 @@ class BunnyFuzz:
             confirm = input(colored("\n\nDid the program crash (Y/n)? ", "yellow"))
 
             if confirm != 'y' and confirm != 'Y' and confirm != '':
-                runAgain = input(colored("Would you like to increase the character count and run it again?", "yellow"))
+                runAgain = input(colored("Would you like to increase the character count and run it again (Y/n)?", "yellow"))
                 if runAgain != 'y' and runAgain != 'Y' and runAgain != '':
                     continue
                 else:
