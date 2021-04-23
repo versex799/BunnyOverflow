@@ -114,7 +114,7 @@ class BunnyMenu:
             "\n\n\t5: Generate Shellcode\t- Generate a payload used to create reverse shell"
             "\n\n\t6: Vulnerable Address\t- Find an address where our payload can be injected"
             "\n\n\t7: Exploit\t\t- Send the result of all previous operations to the target to gain a reverse shell"
-            "\n\n\t8: Change Config\t\t- Manually set values for configured variables"
+            "\n\n\t8: Change Config\t- Manually set values for configured variables"
             "\n\n\t9: View Current Config\t- See what the current configuration looks like"
             "\n\n\tA: Load\t\t\t- Load a previously saved config for a buffer overflow"
             "\n\n\tB: Save\t\t\t- Save your current config to disk with a custom filename"
