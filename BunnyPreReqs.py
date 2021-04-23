@@ -21,3 +21,13 @@ class BunnyPreReqs:
             missingPreReqs = True
             print(colored("Missing Pre-Req: /usr/bin/msfvenom", "red"))
             exit(0)
+
+        if not os.path.isfile("/usr/bin/qterminal"):
+            missingPreReqs = True
+            print(colored("Missing Pre-Req: /usr/bin/qterminal", "red"))
+            exit(0)
+
+        if not os.path.isfile("/usr/bin/nc"):
+            missingPreReqs = True
+            print(colored("Missing Pre-Req: /usr/bin/nc", "red"))
+            exit(0)

@@ -102,8 +102,8 @@ class BunnyMenu:
     def PrintMenu():
         BunnyBanners.PrintMainBanner()
         print(colored(
-            "\n\nPlease select the operation you would like to perform. You can either start a new Buffer Overflow "
-            "which will run through all the operations, or perform any of the operations individually. You may also "
+            "\n\nPlease select the operation you would like to perform. You can either start a new Buffer Overflow\n"
+            "which will run through all the operations, or perform any of the operations individually. You may also\n"
             "load an existing buffer overflow that you have saved previously.\n",
             "green"))
         print(colored(

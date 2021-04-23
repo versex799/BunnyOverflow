@@ -13,12 +13,12 @@ class BunnyFuzz:
 
         BunnyBanners.PrintFuzzBanner()
 
-        print(colored("We are going to fuzz the vulnerable service. To do this, ensure that the vulnerable program is "
-                      "loaded and running inside Immunity on the target box. The script will send a series of "
-                      "payloads that increase in size from 100 to 3000 to attempt to crash the service. Your job is "
-                      "to watch the lower right side of the debugger and the script output to see at which point "
-                      "immunity goes from 'Running' to 'Paused'. You do not need to be exact, we just want to get a "
-                      "ballpark figure. So for example, if you see the debugger pause when the script sends a payload "
+        print(colored("We are going to fuzz the vulnerable service. To do this, ensure that the vulnerable program is\n"
+                      "loaded and running inside Immunity on the target box. The script will send a series of\n"
+                      "payloads that increase in size from 100 to 3000 to attempt to crash the service. Your job is\n"
+                      "to watch the lower right side of the debugger and the script output to see at which point\n"
+                      "immunity goes from 'Running' to 'Paused'. You do not need to be exact, we just want to get a\n"
+                      "ballpark figure. So for example, if you see the debugger pause when the script sends a payload\n"
                       "with a character count of 700, you will enter 700 into the prompt.\n\n", "green"))
         input(colored("Press enter to start... ", "yellow"))
 

@@ -13,7 +13,7 @@ class BunnyRun:
         BunnyBanners.PrintExploitBanner()
 
         run = input(
-            "It is time to test our exploit. To do so, ensure the following:\n\n\t1: The vulnerable service is "
+            "It is time to test our exploit. To do so, ensure the following:\n\n\t1: The vulnerable service is"
             "running outside of the debugger\n\t2: The vulnerable service has been run with administrator "
             "credentials\n\nWhat this has been done, press enter to run the exploit.")
 

@@ -13,8 +13,8 @@ class BunnyPayload:
     def GeneratePayload():
         BunnyBanners.PrintPayloadBanner()
 
-        print(colored("Now that we have our bad characters, we can generate some shellcode that will give us a "
-                      "reverse shell upon successful exploitation. Answer the following to generate the "
+        print(colored("Now that we have our bad characters, we can generate some shellcode that will give us a\n"
+                      "reverse shell upon successful exploitation. Answer the following to generate the\n"
                       "payload...\n\n", "green"))
 
         print(colored("Payload:\n\t1: x86\n\t2: x64\n", 'cyan'))

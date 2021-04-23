@@ -22,16 +22,16 @@ class BunnyOffset:
             else:
                 BunnyConfig.crashCount = int(temp_crashedOn)
 
-        print(colored("\n\nNow that we have figured out when the program crashes, we can move onto finding the eip "
-                      "offset. To do this, we will send a unique sequence of characters to the target. This pattern "
-                      "should overwrite the EIP. After the sequence has been sent, you will need to enter the value "
-                      "displayed in the EIP field of the debugger. This should be located in the top right quadrant "
-                      "of the Immunity debugger. once you have entered that value, the script will detemine the "
-                      "offset based on the unique sequence of characters we sent.\n\nAs a final step before we move "
-                      "onto the next operation, we will verify that our offset is correct by sending another payload "
-                      "and ensuring you see '42424242' in the EIP field.\n\n", "green"))
+        print(colored("\n\nNow that we have figured out when the program crashes, we can move onto finding the eip\n"
+                      "offset. To do this, we will send a unique sequence of characters to the target. This pattern\n"
+                      "should overwrite the EIP. After the sequence has been sent, you will need to enter the value\n"
+                      "displayed in the EIP field of the debugger. This should be located in the top right quadrant\n"
+                      "of the Immunity debugger. once you have entered that value, the script will determine the\n"
+                      "offset based on the unique sequence of characters we sent.\n\n"
+                      "As a final step before we move onto the next operation, we will verify that our offset is\n"
+                      "correct by sending another payload and ensuring you see '42424242' in the EIP field.\n\n", "green"))
         input(colored(
-            "Please ensure that the vulnerable program is loaded and running inside Immunity on the target. If you "
+            "Please ensure that the vulnerable program is loaded and running inside Immunity on the target. If you\n"
             "ran another operation before this one, make sure to reset the debugger and press enter to start...",
             "yellow"))
 

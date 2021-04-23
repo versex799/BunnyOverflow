@@ -14,7 +14,7 @@ class BunnyAddress:
 
         print("Let's grab an address to use for our payload\n\n To do that, open immunity and open your program\n\t1: "
               "Type '!mona modules'\n\t2: Look for modules with false in all protection settings\n\t3: Type in '!mona "
-              "find -s \"\xff\xe4\" -m [module name]' (e.g. essfunc.dll is a module name)\n\t5: Pick an address from "
+              "find -s \"\\xff\\xe4\" -m [module name]' (e.g. essfunc.dll is a module name)\n\t5: Pick an address from\n"
               "the list")
         selectedAddr = input(colored("\n\nWhich address do you wish to try (Enter c to cancel)? ", "yellow"))
         formattedAddr = ""
