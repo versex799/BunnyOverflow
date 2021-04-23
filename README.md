@@ -44,7 +44,7 @@ To download the script simply enter `git clone https://github.com/versex799/Bunn
 
 Change directoy `cd BunnyOverflow`
 
-Run the script `python3 BunnyOverflow.py1`
+Run the script `python3 BunnyOverflow.py`
 
 
 # Main Menu
