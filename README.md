@@ -38,12 +38,28 @@ configuration, you will need to manually re-enter the information and/or run thr
   
   9: Shellcode - The malicious shellcode for the reverse shell
 
+# Download and Run
+
+To download the script simply enter `git clone https://github.com/versex799/BunnyOverflow.git`
+
+Change directoy `cd BunnyOverflow`
+
+Run the script `python3 BunnyOverflow.py`
+
+
 # Main Menu
 
 ![Main Menu](https://github.com/versex799/BunnyOverflow/blob/master/Screenshots/MainMenu.png)
 
 The main menu allows you to select running any one of the processes, or running them all at once, where one carries directly over to the next. I will go over each
 of the options in more detail below. 
+
+# 1: Start New BOF
+ 
+The purpose of this process is to create a walkthrough type of experience. It takes you through each of the following processes and provides prompts to let you know
+what to look at, when to reset the debugger, and more. After each step is finished, the results will automatically be saved to disk. If no previous configuration was
+detected at startup or was not loaded before beginning this process, the user will be prompted to enter the remote and local IP addresses and port numbers, as well as
+the operation to perform on the service. 
 
 # 2: Fuzzing
 
